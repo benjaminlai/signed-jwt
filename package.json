@@ -1,0 +1,31 @@
+{
+  "name": "s2s-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "generate": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminlai/s2s-auth.git"
+  },
+  "keywords": [],
+  "author": "benjaminlai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminlai/s2s-auth/issues"
+  },
+  "homepage": "https://github.com/benjaminlai/s2s-auth#readme",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/jsonwebtoken": "^9.0.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.0.2"
+  }
+}
